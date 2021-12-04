@@ -1,0 +1,35 @@
+.Rvideo{
+    flex:0.8 ;
+    display: grid;
+    
+
+} 
+.Rvideo > div {
+    margin: 8px 2px ;
+
+}
+.videos{
+    
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: auto;
+    
+    
+    
+}
+.video{
+    justify-content: space-around;
+    height: 300px;
+    left:0;
+    width :270px;   
+    margin: 20px;
+    ;
+}
+.logo{
+    display: flex;
+    margin: auto;
+}
+.logo > div{
+    padding : 0 12px
+}
